@@ -33,6 +33,7 @@ $secondaryColor: #eee;
   margin: auto;
   padding: 20px;
   background-color: $secondaryColor;
+  box-shadow: 3px 3px 5px 0px #1e2127;
   border-radius: 10px;
   .wrapper { padding: 5px 10px; }
 }
@@ -67,6 +68,13 @@ span {
   background-color: $mainColor;
   border: 2px solid $secondaryColor;
   border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px #1e2127;
+  &:hover {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+    box-shadow: none;
+  }
+
 }
 #new-quote:hover {
   color: $mainColor;
@@ -81,6 +89,8 @@ span {
   margin: 10px auto 0 auto;
   a {
     font-size: 1em;
+    font-weight: 400;
+    text-shadow: 1px 1px 3px #1e2127;
     color: $secondaryColor;
     text-decoration: none;
     &:hover { text-decoration: underline; }
