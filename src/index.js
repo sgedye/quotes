@@ -51,6 +51,11 @@ class QuoteMachine extends React.Component {
           id: 9,
           quote: "If we don’t believe in freedom of expression for people we despise, we don’t believe in it at all.",
           author: "Noam Chomsky"
+        },
+        {
+          id: 10,
+          quote: "Pain is inevitable. Suffering is optional.",
+          author: "Haruki Murakami"
         }
       ]
     }
